@@ -4,6 +4,11 @@
     "maintainers": ["devinivy", "DavidTPate", "AdriVanHoudt"],
     "skip": ["10", "osx", "aix"]
   },
+  "@babel/core": {
+    "maintainers": "nicolo-ribaudo",
+    "yarn": true,
+    "scripts": ["bootstrap", "build", "test"]
+  },
   "@hapi/shot": {
     "maintainers": "cjihrig",
     "prefix": "v"

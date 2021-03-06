@@ -8,7 +8,8 @@
     "maintainers": "nicolo-ribaudo",
     "prefix": "v",
     "yarn": true,
-    "scripts": ["build", "test"]
+    "scripts": ["build", "test"],
+    "skip": "10.x"
   },
   "@hapi/shot": {
     "maintainers": "cjihrig",

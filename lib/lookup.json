@@ -9,7 +9,7 @@
     "prefix": "v",
     "yarn": true,
     "scripts": ["build", "test"],
-    "skip": "10.x"
+    "skip": ["10.x", "win32", "aix", "s390"]
   },
   "@hapi/shot": {
     "maintainers": "cjihrig",
